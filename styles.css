@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-size: 17px;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;   
+}
+h1{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+h2{
+    opacity: 0.8;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+}
+.contacts{
+    list-style-type: none;
+}
+header li{
+    font-size: 1.3rem;
+    line-height: 1.5;  
+}
+li img{
+    vertical-align: middle;
+}
+li a{
+     text-decoration: none;
+}
+.block{
+    margin-bottom: 0.8rem;
+}
+/*main*/
+main{
+    display: flex;
+    justify-content: space-around;    
+}
+.section1{
+    margin-left: 0.7rem;
+}
+h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+.links{
+    list-style-type: none;
+}
+.skills,
+.languages{
+    font-weight: 600;
+}
+.projects a{
+text-decoration: none;
+}
+.project{
+    margin-bottom: 0.3rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+.descr-stack{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.univer,h4{
+    text-indent: 0.3rem;
+}
+.univer,.fw500{
+    font-weight: 600;
+}
